@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle atom-sandbox",
+        "command": "atom-sandbox:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "atom-sandbox",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "atom-sandbox:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
